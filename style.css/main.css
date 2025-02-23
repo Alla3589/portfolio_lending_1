@@ -1,0 +1,399 @@
+html{
+    box-sizing: border-box;
+   
+    
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    
+    
+}
+body {
+margin: 0;
+font-family: 'Montserrat', serif;
+}
+
+.montserrat-<uniquifier> {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+.header {
+height: 700px;
+background-image: url(../image/generated_fap_summer_2020_B05_wr.jpg\ 1.png);
+
+}
+
+.header_obzor {
+display: flex;
+justify-content:space-between;
+height: 80px;
+background-color:#D0B194E5 ;
+
+}
+
+
+.text_h4 {
+font-family: Montserrat;
+font-weight: 600;
+font-size: 17px;
+line-height: 18px;
+letter-spacing: 2px;
+color: #FFFFFF;
+width: 90px;
+height: 18px;
+padding-top: 22px;
+}
+.text_h5 {
+font-family: Montserrat;
+font-weight: 500;
+font-size: 14px;
+line-height: 17.07px;
+letter-spacing: -1.5%;
+color: #FFFFFF;
+width: 167px;
+height: 17px;
+padding-top: 20px;
+white-space: nowrap;
+}
+
+a {
+text-decoration: none;
+}
+.menu_ul {
+display: flex;
+list-style: none;
+}
+.menu_li {
+padding-right: 12px;
+padding-top: 15px;
+font-family: Montserrat;
+font-weight: 500;
+font-size: 16px;
+line-height: 19.5px;
+letter-spacing: 0%;
+color: #FFFFFF;
+
+
+}
+.header_tel {
+padding-right: 215px;
+}
+.tel_h3 {
+padding-top: 30px ;
+font-family: Montserrat;
+font-weight: 700;
+font-size: 19px;
+line-height: 23.16px;
+letter-spacing: -0.5%;
+width: 185px;
+height: 23px;
+color: #FFFFFF;
+white-space: nowrap;
+}
+.rec {
+width: 63px;
+height: 1px;
+margin-bottom: 10px;
+}
+
+.header_inform {
+text-align: center;
+
+}
+
+.text_h1 {
+font-family: Montserrat;
+font-weight: 700;
+font-size: 60px;
+line-height: 63.54px;
+letter-spacing: 6px;
+color: #FFFFFF;
+width: 357px;
+height: 64px;
+margin-top: -34px;
+padding-left: 621px;
+}
+.inline {
+display: flex;
+
+}
+.inline_icon{
+ width: 116px;
+height: 1px;
+margin-top: 206px;
+margin-left: 485px;
+    
+}
+.inline_line {
+    width: 117px;
+    height: 1px;
+    margin-top: 207px;
+    margin-left: 370px;
+       
+}
+
+
+.text_h2 {
+font-family: Cormorant Garamond;
+font-weight: 400;
+font-size: 45px;
+line-height: 54.5px;
+letter-spacing: 0%;
+color: #FFFFFF;
+width: 927px;
+height: 54px;
+padding-top: 19px;
+padding-left: 336px;
+white-space: nowrap;
+}
+.icon_vana {
+    
+padding-top: 22px;
+margin-left: 215px;
+    
+}
+.wopros_item {
+height: 600px;
+padding-top: 107px;
+border-radius: 32px;
+background-color: #F4E8DA2E;
+}
+
+.wopros_h4 {
+font-family: Lato;
+font-weight: 400;
+font-size: 17px;
+line-height: 22.1px;
+letter-spacing: 4%;
+width: 229px;
+height: 22px;
+padding-left: 100px;
+white-space: nowrap;
+color: #693030;
+}
+.wopros_h2 {
+font-family: Cormorant Garamond;
+font-weight: 400;
+font-size: 55px;
+line-height: 55px;
+letter-spacing: 0%;
+width: 1173px;
+height: 110px;
+padding-top: 40px;
+padding-left: 100px;
+color: #2F2F2F;
+ 
+}
+.icon_img {
+width: 1070px;
+height: 1px;
+margin-top: 110px;
+margin-left: -75px;
+}
+.wopros_team {
+display: flex;
+margin-left: 100px;
+
+}
+.card_1 {
+margin-right: 25px ;
+
+}
+.card_h3 {
+    font-family: Cormorant Garamond;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #2F2F2F;
+    width: 147px;
+    height: 40px;
+    padding-top: 30px;
+
+}
+.card_h3_1 {
+    font-family: Cormorant Garamond;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    width: 149.5488739013672px;
+    padding-top: 30px;
+    left: 515px;
+    color: #2F2F2F;
+}
+.card_h3_2 {
+    font-family: Cormorant Garamond;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #2F2F2F;
+    padding-top: 30px;
+    width: 170px;
+   height: 40px;
+
+}
+.card_h3_3 {
+font-family: Cormorant Garamond;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+letter-spacing: 0%;
+color: #2F2F2F;
+padding-top: 30px;
+width: 94px;
+height: 40px;
+
+}
+.text_p {
+    font-family: Lato;
+    font-weight: 400;
+     font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1%;
+    width: 164px;
+    height: 54px;
+    padding-top:30px ;
+    
+}
+.mecj {
+font-family: Lato;
+font-weight: 900;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 1%;
+    
+}
+.text_p_1 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1%;
+    width: 170px;
+    height: 54px;
+}
+.rub {
+color:#3C3D3D ;
+font-family: Lato;
+font-weight: 900;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 1%;
+}
+.text_p_2 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1%;
+    width: 156.6666717529297px;
+height: 54px;
+padding-top: 30px;
+
+}
+.day {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1%;
+    color:#3C3D3D ;
+}
+.text_p_3 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1%;
+    width: 175px;
+height: 54px;
+padding-top: 30px;
+}
+.year {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1%;
+    color: #3C3D3D;
+}
+
+.otvet_h3 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 1%;
+    width: 185px;
+height: 36px;
+padding-top: 30px;
+padding-left: 100px;
+color:#DBAF15 ;
+white-space: nowrap;
+}
+.image {
+    width: 45px;
+    height: 21px;
+    padding-top:5px ;
+    margin-left: 275px;
+    
+}
+
+.glava_h2 {
+    font-family: Cormorant Garamond;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 55px;
+    letter-spacing: 0%;
+    width: 1169px;
+height: 110px;
+padding-top: 150px;
+padding-left: 100px;
+
+}
+.rub5 {
+    font-family: Cormorant Garamond;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 55px;
+    letter-spacing: 0%;
+    color: #DBAF15;
+    margin-left: 10px;
+    
+}
+.rub10 {
+    font-family: Cormorant Garamond;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 55px;
+    letter-spacing: 0%;
+   color: #DBAF15;
+   margin-left: 10px;     
+}
+.glava_icon {
+    width: 711px;
+    height: 1px;
+    margin-top: 120px;
+    margin-left: 100px;
+    color: #693030;
+    
+}
+
+
+
+
