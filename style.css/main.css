@@ -1,6 +1,7 @@
 html{
     box-sizing: border-box;
-   
+    max-width: 1600px;
+
     
 }
 
@@ -45,6 +46,7 @@ background-color:#D0B194E5 ;
 }
 
 
+
 .text_h4 {
 font-family: Montserrat;
 font-weight: 600;
@@ -55,6 +57,7 @@ color: #FFFFFF;
 width: 90px;
 height: 18px;
 padding-top: 22px;
+
 }
 .text_h5 {
 font-family: Montserrat;
@@ -67,6 +70,7 @@ width: 167px;
 height: 17px;
 padding-top: 20px;
 white-space: nowrap;
+
 }
 
 a {
@@ -75,6 +79,8 @@ text-decoration: none;
 .menu_ul {
 display: flex;
 list-style: none;
+padding-right: 80px;
+
 }
 .menu_li {
 padding-right: 12px;
@@ -86,10 +92,14 @@ line-height: 19.5px;
 letter-spacing: 0%;
 color: #FFFFFF;
 
+white-space: nowrap;
+
 
 }
 .header_tel {
-padding-right: 215px;
+   
+    
+
 }
 .tel_h3 {
 padding-top: 30px ;
@@ -102,11 +112,13 @@ width: 185px;
 height: 23px;
 color: #FFFFFF;
 white-space: nowrap;
+margin-right: 100px;
 }
 .rec {
 width: 63px;
 height: 1px;
 margin-bottom: 10px;
+
 }
 
 .header_inform {
@@ -162,11 +174,12 @@ white-space: nowrap;
 .icon_vana {
     
 padding-top: 22px;
-margin-left: 215px;
+margin-left: 250px;
+
     
 }
 .wopros_item {
-height: 600px;
+height: 640px;
 padding-top: 107px;
 border-radius: 32px;
 background-color: #F4E8DA2E;
@@ -192,7 +205,7 @@ line-height: 55px;
 letter-spacing: 0%;
 width: 1173px;
 height: 110px;
-padding-top: 40px;
+margin-top: 40px;
 padding-left: 100px;
 color: #2F2F2F;
  
@@ -208,11 +221,11 @@ display: flex;
 margin-left: 100px;
 
 }
-.card_1 {
+.card_wopros {
 margin-right: 25px ;
 
 }
-.card_h3 {
+.card_h3_wopros {
     font-family: Cormorant Garamond;
     font-weight: 400;
     font-size: 40px;
@@ -224,7 +237,7 @@ margin-right: 25px ;
     padding-top: 30px;
 
 }
-.card_h3_1 {
+.card_h3_wopros_1 {
     font-family: Cormorant Garamond;
     font-weight: 400;
     font-size: 40px;
@@ -235,7 +248,7 @@ margin-right: 25px ;
     left: 515px;
     color: #2F2F2F;
 }
-.card_h3_2 {
+.card_h3_wopros_2 {
     font-family: Cormorant Garamond;
     font-weight: 400;
     font-size: 40px;
@@ -247,7 +260,7 @@ margin-right: 25px ;
    height: 40px;
 
 }
-.card_h3_3 {
+.card_h3_wopros_3 {
 font-family: Cormorant Garamond;
 font-weight: 400;
 font-size: 40px;
@@ -341,7 +354,7 @@ padding-top: 30px;
     letter-spacing: 1%;
     width: 185px;
 height: 36px;
-padding-top: 30px;
+padding-top: 24px;
 padding-left: 100px;
 color:#DBAF15 ;
 white-space: nowrap;
@@ -349,7 +362,7 @@ white-space: nowrap;
 .image {
     width: 45px;
     height: 21px;
-    padding-top:5px ;
+   
     margin-left: 275px;
     
 }
@@ -858,10 +871,8 @@ margin-left: 400px;
  
 }
 .inform_card {
-    width: 1429px;
-    height: 1603px;
     margin-left: -110px;
-    padding-top: 120px;
+    padding-top: 120px;   
 }
 
 
@@ -975,7 +986,7 @@ margin-left: 20px;
     width: 117px;
     height: 116px;
     border-radius: 10px;
-    margin-right: 5px;
+    
     
 }
 
@@ -1000,7 +1011,7 @@ padding-left: 410px;
 
 }
 .card_text_left {
-padding-top: 55px;
+padding-top: 34px;
 }
 .card_h4 {
     font-family: Lato;
@@ -1027,7 +1038,7 @@ color: #3C3D3D;
 
 }
 .card_text_right {
-    padding-top: 55px;
+    padding-top: 34px;
 }
 .card_h3_1 {
 font-family: Lato;
@@ -1040,7 +1051,7 @@ width: 108px;
 height: 22px;
 top: 3656.94px;
 left: 661px;
-margin-top: -20px;
+
 }
 .card_h3_2 {
     font-family: Lato;
@@ -1053,7 +1064,7 @@ margin-top: -20px;
     height: 22px;
     white-space: nowrap;
     margin-right: 20px;
-    margin-top: -20px;
+    
     }
 .card_video {
 
@@ -1170,17 +1181,20 @@ border-bottom-right-radius: 16px;
 margin-left: 5px;
 
 }
+
 .kalkulator {
-    width: 1017px;
+    
     height: 622px;
     padding-top: 120px;
     padding-left: 220px;
+    
     
 }
 .kalk_menu {
 margin-left: -160px;
 display: flex;
 padding-top:77px ;
+
 }
 .kalk_h2 {
     font-family: Cormorant Garamond;
@@ -1295,6 +1309,19 @@ padding-left: 27px;
 .item_kalk {
 margin-left: -120px;
 }
+.item_h3_h3 {
+font-family: Lato;
+font-weight: 900;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 1%;
+width: 219px;
+height: 27px;
+margin-left: -125px;
+margin-top: 53px;
+margin-bottom: 49px;
+
+}
 
 .yslugi {
     display: grid;
@@ -1302,22 +1329,242 @@ margin-left: -120px;
 }
 .yslugi_h3 {
 }
-.yslugi_left {
+.yslugi_1 {
+margin-left: -125px;
 
 }
-.yslugi_h3_1 {
+.yslugi_2 {
+margin-left: -190px;
+margin-top: 1px;
 }
-.yslugi_h3_2 {
+.custom-checkbox {
+    width: 30px;
+    height: 30px;
+   
+
 }
-.yslugi_h3_3 {
+.custom-checkbox::after {
+    display: inline-block;
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 2px solid#C5B19D ;
+    
+  }
+ 
+
+.label_1 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    width: 248px;
+height: 24px;
+color: #3C3D3D;
+padding-left: 15px;
+
 }
-.yslugi_h3_4 {
+.label_2 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    width: 124px;
+height: 24px;
+color: #3C3D3D;
+padding-left: 15px;
+
+}
+.label_3 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    width: 197px;
+height: 24px;
+color: #3C3D3D;
+padding-left: 15px;
+}
+.label_4 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    width: 261px;
+height: 24px;
+color: #3C3D3D;
+padding-left: 15px;
 }
 .yslugi_right {
 }
-.right_h3_1 {
+.label_5 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    width: 88px;
+height: 24px;
+color: #3C3D3D;
+padding-left: 15px;
 }
-.right_h3_2 {
+.label_6 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    width: 221px;
+height: 24px;
+color: #3C3D3D;
+padding-left: 15px;
 }
-.right_h3_3 {
+.label_7 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    width: 130px;
+height: 24px;
+color: #3C3D3D;
+padding-left: 15px;
 }
+.forma {
+    width: 1170px;
+    height: 251px;
+    margin-top: 233px;
+    left: 314px;
+    background-color:#F6EDE3 ;
+    margin-bottom: 85px;
+}
+.forma_text {
+   
+    padding-top: 55px;
+padding-left: 100px;
+    
+}
+.forma_h3 {
+    font-family: Cormorant Garamond;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    width: 437px;
+height: 40px;
+color:#2F2F2F ;
+
+}
+.forma_p {
+    font-family: Lato;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 1%;
+color: #3C3D3D;
+width: 314px;
+height: 54px;
+
+}
+.forma_menu {
+display: flex;
+padding-left:406px ;
+margin-top:-30px ;
+}
+.forma_input {
+margin-right: 30px;
+height: 65px;
+width: 225px;
+border-radius: 16px;
+border: #FFFFFF;
+}
+.forma_input::placeholder {
+font-family: Lato;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 1%;
+color: #3C3D3D 50%;
+padding-left: 20px;
+}
+.forma_input_btn {
+ width: 225px;
+height: 65px;
+border-radius: 18px;
+border: 3px solid #DBAF15;
+
+}
+.forma_input_btn::placeholder {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1%;
+    color:#DBAF15 ;
+    padding-left: 20px;
+}
+
+.block_9 {
+}
+.summa {
+}
+.summa_text {
+}
+.summa_image {
+padding-left: 100px;
+position: absolute;
+}
+.icom_icon {
+position: relative;
+margin-left: -140px;
+margin-top: -30px;
+}
+.summa_group {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+.group_h2 {
+    font-family: Cormorant Garamond;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #2F2F2F;
+    width: 215px;
+height: 39px;
+white-space: nowrap;
+
+
+}
+.group_icon {
+    
+   
+    opacity: 0.6;
+    
+}
+.group_h3 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1%;
+    color: #3C3D3D;
+    width: 164px;
+height: 26px;
+top: 6406px;
+left: 221px;
+white-space: nowrap;
+}
+.group_right {
+    margin-top: -50px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+}
+
